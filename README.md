@@ -100,7 +100,6 @@ This project was developed to practice:
 
 > Add screenshots of your application here.
 
-```
 <div align="center">
 
   <img src="./src/assets/IMG_1841.PNG" width="200px" height="auto" max-width="80%" style="border-radius: 20px; />
@@ -112,7 +111,6 @@ This project was developed to practice:
   <img src="./preview/search.png" width="45%" />
 
 </div>
-```
 
 ---
 
