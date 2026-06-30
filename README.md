@@ -102,7 +102,7 @@ This project was developed to practice:
 
 <div style="display: flex; direction:row" align="center">
 
-  <img src="./src/assets/IMG_1841.PNG" width="200px" height="auto" max-width="80%" style="border-radius: 20px; />
+  <img src="./src/assets/IMG_1841.PNG" width="200px" height="auto" max-width="80%" style="border-radius: 20px;" />
   <img src="./src/assets/IMG_1842.PNG" width="200px" height="auto" max-width="80%" style="border-radius: 20px;" />
   <img src="./src/assets/IMG_1843.PNG" width="200px" height="auto" max-width="80%" style="border-radius: 20px;" />
   <img src="./src/assets/IMG_1844.PNG" width="200px" height="auto" max-width="80%" style="border-radius: 20px;" />
