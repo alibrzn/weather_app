@@ -4,7 +4,6 @@ A modern and responsive Weather Application built with **React**, **Tailwind CSS
 
 یک اپلیکیشن مدرن و واکنش‌گرا برای نمایش اطلاعات آب‌وهوا که با **React**، **Tailwind CSS** و **React Router** توسعه داده شده و اطلاعات را به‌صورت لحظه‌ای از طریق **Weather API** دریافت می‌کند.
 ![React](https://img.shields.io/badge/React-19-blue?logo=react)
-![React](https://img.shields.io/badge/React-19-blue?logo=react-router)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4-38BDF8?logo=tailwindcss)
 ![Responsive](https://img.shields.io/badge/Responsive-Yes-success)
 ![License](https://img.shields.io/badge/License-MIT-green)
