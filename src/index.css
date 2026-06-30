@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: Iran;
+    src: url('../public/font/IRANSansX-DemiBold.woff') format(woff);
+}
+@font-face {
+    font-family: IranNumber;
+    src:  url('../public/font/IRANSansXFaNum-DemiBold.woff') format(woff);
+}
+* {
+    font-family: Iran;
+    /* border: solid 1px red; */
+}
+@theme {
+  --color-bgCard1: #4D4494;
+  --color-bgCard2: #4F43AE;
+}
+span {
+    font-family: IranNumber;
+}
+h1 {
+  @apply text-3xl
+}
+.div-page1 {
+  @apply flex flex-col justify-center 
+            bg-white/50 rounded-t-4xl p-2 absolute bottom-0 h-1/2
+}
+.div-page2 {
+  @apply flex flex-col items-center justify-center gap-4 bg-white/50 rounded-t-4xl p-2
+            absolute bottom-0 h-1/2
+}
+.btn-login {
+  @apply w-fit rounded-2xl border-2 border-orange-500 px-4 py-2
+}
+.input-Search {
+  @apply border-2 border-amber-50/0 right-0 rounded-2xl pr-8 py-2 shadow-xs shadow-gray-600 w-full
+}
+.input-Search:hover {
+  @apply border-2 border-bgCard1
+}
+.input-Search:focus-visible {
+  @apply border-2 border-bgCard1
+}
+.CardMain {
+  @apply bg-linear-to-r from-bgCard1 to-bgCard2 px-6 py-1
+  w-full rounded-4xl flex flex-row justify-center items-center gap-2
+  shadow-sm shadow-gray-400 transition-all delay-100
+}
+.CardMain:hover {
+  @apply -translate-y-2 shadow-xl shadow-bgCard2 cursor-pointer
+}
+.CardSearching {
+  @apply bg-cyan-900/98 top-50 w-10/12 h-fit py-4 px-2
+  flex flex-col justify-center items-center rounded-2xl
+  shadow-md shadow-black
+  fixed z-100 transition-all delay-100 ease-in-out scale-100 starting:scale-0
+}
+.div-alibrzn {
+  background: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.2px);
+  -webkit-backdrop-filter: blur(10.2px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  @apply flex flex-col justify-start items-center
+    fixed -left-40 gap-4
+     bottom-20 rotate-90 text-xs rounded-t-xl pt-2 pb-0 pr-4 pl-4 m-0 h-1/3
+     transition-all delay-75 ease-linear
+}
+.div-alibrzn:hover {
+  background: rgba(0, 0, 0, 0.5);
+  @apply left-0
+}
+.icon-social {
+  @apply w-5
+}
